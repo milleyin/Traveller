@@ -14,6 +14,8 @@
 		E47C5A012CF9F0B7006549FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C5A002CF9F0B7006549FC /* User.swift */; };
 		E47C5A052CF9F145006549FC /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C5A042CF9F145006549FC /* MainPage.swift */; };
 		E47C5A072CF9F153006549FC /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C5A062CF9F153006549FC /* LoginPage.swift */; };
+		E4A5E65A2CFAD4F3006F7AC8 /* LocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E6592CFAD4F3006F7AC8 /* LocationRepository.swift */; };
+		E4A5E65D2CFAD536006F7AC8 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E65C2CFAD536006F7AC8 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		E47C5A002CF9F0B7006549FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E47C5A042CF9F145006549FC /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		E47C5A062CF9F153006549FC /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		E4A5E6592CFAD4F3006F7AC8 /* LocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepository.swift; sourceTree = "<group>"; };
+		E4A5E65C2CFAD536006F7AC8 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		E4A5E65F2CFAD5C9006F7AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +70,14 @@
 		E47C59F92CF9F074006549FC /* Traveller */ = {
 			isa = PBXGroup;
 			children = (
+				E4A5E65F2CFAD5C9006F7AC8 /* Info.plist */,
 				E47C59F52CF9F074006549FC /* Preview Content */,
 				E47C59F62CF9F074006549FC /* Assets.xcassets */,
 				E47C59F82CF9F074006549FC /* TravellerApp.swift */,
 				E47C59FE2CF9F094006549FC /* LandingPage.swift */,
 				E47C5A032CF9F0D5006549FC /* Environment */,
+				E4A5E65B2CFAD4F9006F7AC8 /* Repository */,
+				E4A5E65E2CFAD542006F7AC8 /* Service */,
 				E47C5A082CFA0FBD006549FC /* Pages */,
 			);
 			path = Traveller;
@@ -90,6 +98,22 @@
 				E47C5A062CF9F153006549FC /* LoginPage.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		E4A5E65B2CFAD4F9006F7AC8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5E6592CFAD4F3006F7AC8 /* LocationRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E4A5E65E2CFAD542006F7AC8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5E65C2CFAD536006F7AC8 /* LocationService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +189,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A5E65D2CFAD536006F7AC8 /* LocationService.swift in Sources */,
+				E4A5E65A2CFAD4F3006F7AC8 /* LocationRepository.swift in Sources */,
 				E47C59FD2CF9F074006549FC /* TravellerApp.swift in Sources */,
 				E47C59FF2CF9F094006549FC /* LandingPage.swift in Sources */,
 				E47C5A012CF9F0B7006549FC /* User.swift in Sources */,
@@ -306,7 +332,12 @@
 				DEVELOPMENT_TEAM = 2U974MU9D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Traveller/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "行者";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "「行者」需要您的定位授权，才能记录导航路线。";
+				INFOPLIST_KEY_NSLocationUsageDescription = "「行者」需要您的定位授权，才能记录导航路线。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "「行者」需要您的定位授权，才能记录导航路线。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,7 +372,12 @@
 				DEVELOPMENT_TEAM = 2U974MU9D9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Traveller/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "行者";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "「行者」需要您的定位授权，才能记录导航路线。";
+				INFOPLIST_KEY_NSLocationUsageDescription = "「行者」需要您的定位授权，才能记录导航路线。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "「行者」需要您的定位授权，才能记录导航路线。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
