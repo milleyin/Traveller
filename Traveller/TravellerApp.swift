@@ -11,11 +11,13 @@ import SwiftUI
 struct TravellerApp: App {
     
     @StateObject var user: User = .shared
+    @StateObject var location: LocationService = .shared
     
     var body: some Scene {
         WindowGroup {
             LandingPage()
                 .environmentObject(user)
+                .environmentObject(location)
         }
     }
 }

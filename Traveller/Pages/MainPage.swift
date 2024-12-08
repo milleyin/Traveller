@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct MainPage: View {
+    
+    @EnvironmentObject var location: LocationService
+    
     var body: some View {
         Text("Hello, MainPage!")
+        Text("\(location.currentLocation)")
     }
 }
 
 #Preview {
     MainPage()
+        .environmentObject(LocationService.shared)
 }

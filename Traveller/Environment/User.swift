@@ -12,7 +12,7 @@ class User: ObservableObject {
     static let shared = User()
     
     ///用户登入token
-    @Published var accessToken: String = ""
+    @Published var accessToken: String = "123"
     
     private init() {
         
