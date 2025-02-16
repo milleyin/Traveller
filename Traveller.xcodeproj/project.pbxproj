@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E429E1982D62412D008C4F0C /* NavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = E429E1972D62412D008C4F0C /* NavigationKit */; };
 		E47C59FA2CF9F074006549FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47C59F42CF9F074006549FC /* Preview Assets.xcassets */; };
 		E47C59FB2CF9F074006549FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47C59F62CF9F074006549FC /* Assets.xcassets */; };
 		E47C59FD2CF9F074006549FC /* TravellerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C59F82CF9F074006549FC /* TravellerApp.swift */; };
@@ -14,8 +15,8 @@
 		E47C5A012CF9F0B7006549FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C5A002CF9F0B7006549FC /* User.swift */; };
 		E47C5A052CF9F145006549FC /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C5A042CF9F145006549FC /* MainPage.swift */; };
 		E47C5A072CF9F153006549FC /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C5A062CF9F153006549FC /* LoginPage.swift */; };
-		E4A5E65A2CFAD4F3006F7AC8 /* LocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E6592CFAD4F3006F7AC8 /* LocationRepository.swift */; };
 		E4A5E65D2CFAD536006F7AC8 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E65C2CFAD536006F7AC8 /* LocationService.swift */; };
+		E4C85DE82D565D0B00111C2A /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C85DE72D565D0B00111C2A /* MainPageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +28,9 @@
 		E47C5A002CF9F0B7006549FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E47C5A042CF9F145006549FC /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		E47C5A062CF9F153006549FC /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
-		E4A5E6592CFAD4F3006F7AC8 /* LocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepository.swift; sourceTree = "<group>"; };
 		E4A5E65C2CFAD536006F7AC8 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		E4A5E65F2CFAD5C9006F7AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4C85DE72D565D0B00111C2A /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E429E1982D62412D008C4F0C /* NavigationKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E47C5A042CF9F145006549FC /* MainPage.swift */,
+				E4C85DE72D565D0B00111C2A /* MainPageViewModel.swift */,
 				E47C5A062CF9F153006549FC /* LoginPage.swift */,
 			);
 			path = Pages;
@@ -103,7 +106,6 @@
 		E4A5E65B2CFAD4F9006F7AC8 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				E4A5E6592CFAD4F3006F7AC8 /* LocationRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -133,6 +135,7 @@
 			);
 			name = Traveller;
 			packageProductDependencies = (
+				E429E1972D62412D008C4F0C /* NavigationKit */,
 			);
 			productName = Traveller;
 			productReference = E47C59E32CF9EFA3006549FC /* Traveller.app */;
@@ -162,6 +165,9 @@
 			);
 			mainGroup = E47C59DA2CF9EFA3006549FC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E429E1962D62412D008C4F0C /* XCRemoteSwiftPackageReference "NavigationKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E47C59E42CF9EFA3006549FC /* Products */;
 			projectDirPath = "";
@@ -189,8 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C85DE82D565D0B00111C2A /* MainPageViewModel.swift in Sources */,
 				E4A5E65D2CFAD536006F7AC8 /* LocationService.swift in Sources */,
-				E4A5E65A2CFAD4F3006F7AC8 /* LocationRepository.swift in Sources */,
 				E47C59FD2CF9F074006549FC /* TravellerApp.swift in Sources */,
 				E47C59FF2CF9F094006549FC /* LandingPage.swift in Sources */,
 				E47C5A012CF9F0B7006549FC /* User.swift in Sources */,
@@ -423,6 +429,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E429E1962D62412D008C4F0C /* XCRemoteSwiftPackageReference "NavigationKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/milleyin/NavigationKit.git";
+			requirement = {
+				branch = Dev;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E429E1972D62412D008C4F0C /* NavigationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E429E1962D62412D008C4F0C /* XCRemoteSwiftPackageReference "NavigationKit" */;
+			productName = NavigationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E47C59DB2CF9EFA3006549FC /* Project object */;
 }

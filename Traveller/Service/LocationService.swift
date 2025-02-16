@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 import CoreLocation
+import NavigationKit
 
 class LocationService: ObservableObject {
     
@@ -17,7 +18,7 @@ class LocationService: ObservableObject {
     @Published var location: CLLocation = .init()
     ///当前位置(单次更新)
     var currentLocation: CLLocation? {
-        CoreLocationRepository.shared.currentLocation
+        CoreLocationKit.shared.currentLocation
     }
     
     private var subscriptions = Set<AnyCancellable>()
@@ -27,7 +28,7 @@ class LocationService: ObservableObject {
     }
     
     private func updateLocation() {
-        CoreLocationRepository.shared.locationPublisher
+        CoreLocationKit.shared.locationPublisher
             .compactMap({ $0 })
             .receive(on: RunLoop.main)
             .sink { [weak self] location in

@@ -6,15 +6,22 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct MainPage: View {
     
     @EnvironmentObject var location: LocationService
     
+    @StateObject var viewModel: MainPageViewModel = .init()
+    
     var body: some View {
-        Text("Hello, MainPage!")
-        Text("\(location.currentLocation)")
+        ZStack {
+            Map(position: $viewModel.position)
+
+        }
     }
+    
+    
 }
 
 #Preview {

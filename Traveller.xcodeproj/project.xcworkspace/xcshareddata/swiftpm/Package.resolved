@@ -1,0 +1,15 @@
+{
+  "originHash" : "dfcb19b1576bed1bbdda8426e6d35f5fe67ee5d96ba0878a45b80a7cb8d28687",
+  "pins" : [
+    {
+      "identity" : "navigationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/milleyin/NavigationKit.git",
+      "state" : {
+        "branch" : "Dev",
+        "revision" : "8a5ecae264c3c5f868b9dadec542bf9d1bc7aec0"
+      }
+    }
+  ],
+  "version" : 3
+}
