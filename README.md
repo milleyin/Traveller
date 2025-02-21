@@ -8,8 +8,8 @@ Traveler App 是一款专为公路旅行者设计的 iOS 应用，旨在帮助�
 ## 主要功能规划
 
 - **基础架构**
-  - [ ] 基础架构搭建
-  - [ ] `NavigationKit` -> `LocationKit` 作为 SDK 组件
+  - [x] 基础架构搭建
+  - [x] `NavigationKit` -> `LocationKit` 作为 SDK 组件
   - [ ] `RouteKit` 轨迹记录与路径规划模块
 - **基本功能**
   - [ ] 地图展示（基于 MapKit）
