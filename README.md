@@ -1,5 +1,8 @@
 # Traveler App
 
+![73b4e23b-a489-4943-be5a-253eefc946ea](https://github.com/user-attachments/assets/69e29497-1ea4-487b-b75e-30056bc07dd6)
+
+
 ## 简介
 Traveler App 是一款专为公路旅行者设计的 iOS 应用，旨在帮助用户 **规划旅程、记录行程、发现沿途景点**，并提供 **路书分享与旅行社交** 功能。无论是短途自驾还是长途探险，Traveler App 都能成为你的最佳旅伴。
 
