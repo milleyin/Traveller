@@ -17,6 +17,16 @@
 		E47C5A072CF9F153006549FC /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47C5A062CF9F153006549FC /* LoginPage.swift */; };
 		E4A5E65D2CFAD536006F7AC8 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5E65C2CFAD536006F7AC8 /* LocationService.swift */; };
 		E4C85DE82D565D0B00111C2A /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C85DE72D565D0B00111C2A /* MainPageViewModel.swift */; };
+		E4D95B312D6CA8AB007A7028 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B302D6CA8AB007A7028 /* HomePage.swift */; };
+		E4D95B332D6CA922007A7028 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B322D6CA922007A7028 /* HomePageViewModel.swift */; };
+		E4D95B352D6CAACB007A7028 /* TravelLogMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B342D6CAACB007A7028 /* TravelLogMainPage.swift */; };
+		E4D95B372D6CAADC007A7028 /* TravelLogMainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B362D6CAADC007A7028 /* TravelLogMainPageViewModel.swift */; };
+		E4D95B392D6CAB17007A7028 /* AchievementMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B382D6CAB17007A7028 /* AchievementMainPage.swift */; };
+		E4D95B3B2D6CAB42007A7028 /* AchievementMainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B3A2D6CAB42007A7028 /* AchievementMainPageViewModel.swift */; };
+		E4D95B3D2D6CAB55007A7028 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B3C2D6CAB55007A7028 /* Profile.swift */; };
+		E4D95B3F2D6CAB61007A7028 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B3E2D6CAB61007A7028 /* ProfileViewModel.swift */; };
+		E4D95B472D6CAD95007A7028 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B462D6CAD95007A7028 /* NavigationRouter.swift */; };
+		E4D95B492D6CAEE2007A7028 /* GlobeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D95B482D6CAEE2007A7028 /* GlobeEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +41,25 @@
 		E4A5E65C2CFAD536006F7AC8 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		E4A5E65F2CFAD5C9006F7AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E4C85DE72D565D0B00111C2A /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
+		E4D95B302D6CA8AB007A7028 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		E4D95B322D6CA922007A7028 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		E4D95B342D6CAACB007A7028 /* TravelLogMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLogMainPage.swift; sourceTree = "<group>"; };
+		E4D95B362D6CAADC007A7028 /* TravelLogMainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLogMainPageViewModel.swift; sourceTree = "<group>"; };
+		E4D95B382D6CAB17007A7028 /* AchievementMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementMainPage.swift; sourceTree = "<group>"; };
+		E4D95B3A2D6CAB42007A7028 /* AchievementMainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementMainPageViewModel.swift; sourceTree = "<group>"; };
+		E4D95B3C2D6CAB55007A7028 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E4D95B3E2D6CAB61007A7028 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		E4D95B462D6CAD95007A7028 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		E4D95B482D6CAEE2007A7028 /* GlobeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E4E6D4FF2D638216007BE76D /* Widgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E47C59E02CF9EFA3006549FC /* Frameworks */ = {
@@ -77,6 +105,7 @@
 				E47C59F62CF9F074006549FC /* Assets.xcassets */,
 				E47C59F82CF9F074006549FC /* TravellerApp.swift */,
 				E47C59FE2CF9F094006549FC /* LandingPage.swift */,
+				E4E6D4FF2D638216007BE76D /* Widgets */,
 				E47C5A032CF9F0D5006549FC /* Environment */,
 				E4A5E65B2CFAD4F9006F7AC8 /* Repository */,
 				E4A5E65E2CFAD542006F7AC8 /* Service */,
@@ -89,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				E47C5A002CF9F0B7006549FC /* User.swift */,
+				E4D95B462D6CAD95007A7028 /* NavigationRouter.swift */,
+				E4D95B482D6CAEE2007A7028 /* GlobeEnvironment.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -96,9 +127,12 @@
 		E47C5A082CFA0FBD006549FC /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				E47C5A042CF9F145006549FC /* MainPage.swift */,
-				E4C85DE72D565D0B00111C2A /* MainPageViewModel.swift */,
 				E47C5A062CF9F153006549FC /* LoginPage.swift */,
+				E4D95B402D6CAB75007A7028 /* MainPage */,
+				E4D95B412D6CAB7C007A7028 /* HomePage */,
+				E4D95B422D6CAB89007A7028 /* TravelLogMainPage */,
+				E4D95B442D6CAB99007A7028 /* AchievementMainPage */,
+				E4D95B452D6CABA4007A7028 /* Profile */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -118,6 +152,51 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		E4D95B402D6CAB75007A7028 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				E47C5A042CF9F145006549FC /* MainPage.swift */,
+				E4C85DE72D565D0B00111C2A /* MainPageViewModel.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		E4D95B412D6CAB7C007A7028 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E4D95B302D6CA8AB007A7028 /* HomePage.swift */,
+				E4D95B322D6CA922007A7028 /* HomePageViewModel.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		E4D95B422D6CAB89007A7028 /* TravelLogMainPage */ = {
+			isa = PBXGroup;
+			children = (
+				E4D95B342D6CAACB007A7028 /* TravelLogMainPage.swift */,
+				E4D95B362D6CAADC007A7028 /* TravelLogMainPageViewModel.swift */,
+			);
+			path = TravelLogMainPage;
+			sourceTree = "<group>";
+		};
+		E4D95B442D6CAB99007A7028 /* AchievementMainPage */ = {
+			isa = PBXGroup;
+			children = (
+				E4D95B382D6CAB17007A7028 /* AchievementMainPage.swift */,
+				E4D95B3A2D6CAB42007A7028 /* AchievementMainPageViewModel.swift */,
+			);
+			path = AchievementMainPage;
+			sourceTree = "<group>";
+		};
+		E4D95B452D6CABA4007A7028 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E4D95B3C2D6CAB55007A7028 /* Profile.swift */,
+				E4D95B3E2D6CAB61007A7028 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +211,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E4E6D4FF2D638216007BE76D /* Widgets */,
 			);
 			name = Traveller;
 			packageProductDependencies = (
@@ -196,11 +278,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C85DE82D565D0B00111C2A /* MainPageViewModel.swift in Sources */,
+				E4D95B472D6CAD95007A7028 /* NavigationRouter.swift in Sources */,
+				E4D95B3D2D6CAB55007A7028 /* Profile.swift in Sources */,
+				E4D95B312D6CA8AB007A7028 /* HomePage.swift in Sources */,
+				E4D95B372D6CAADC007A7028 /* TravelLogMainPageViewModel.swift in Sources */,
 				E4A5E65D2CFAD536006F7AC8 /* LocationService.swift in Sources */,
+				E4D95B332D6CA922007A7028 /* HomePageViewModel.swift in Sources */,
 				E47C59FD2CF9F074006549FC /* TravellerApp.swift in Sources */,
+				E4D95B392D6CAB17007A7028 /* AchievementMainPage.swift in Sources */,
 				E47C59FF2CF9F094006549FC /* LandingPage.swift in Sources */,
+				E4D95B352D6CAACB007A7028 /* TravelLogMainPage.swift in Sources */,
+				E4D95B3B2D6CAB42007A7028 /* AchievementMainPageViewModel.swift in Sources */,
 				E47C5A012CF9F0B7006549FC /* User.swift in Sources */,
 				E47C5A072CF9F153006549FC /* LoginPage.swift in Sources */,
+				E4D95B492D6CAEE2007A7028 /* GlobeEnvironment.swift in Sources */,
+				E4D95B3F2D6CAB61007A7028 /* ProfileViewModel.swift in Sources */,
 				E47C5A052CF9F145006549FC /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

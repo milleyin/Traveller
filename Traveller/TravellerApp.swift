@@ -11,6 +11,7 @@ import SwiftUI
 struct TravellerApp: App {
     
     @StateObject var user: User = .shared
+    @StateObject var route: NavigationRouter = .shared
     @StateObject var location: LocationService = .shared
     
     var body: some Scene {
@@ -18,6 +19,7 @@ struct TravellerApp: App {
             LandingPage()
                 .environmentObject(user)
                 .environmentObject(location)
+                .environmentObject(route)
         }
     }
 }

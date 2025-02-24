@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 import CoreLocation
-import NavigationKit
+import CoreLocationKit
 
 class LocationService: ObservableObject {
     
